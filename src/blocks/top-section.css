@@ -1,0 +1,21 @@
+.top-section {
+    margin-top: 50px;
+}
+
+.top-section__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section__title {
+    margin-top: 25px;
+}
+
+.top-section__img {
+    width: 500px;
+    margin: 15px auto 0 auto;
+}
+
+.top-section__signature {
+    margin-top: 25px;
+}

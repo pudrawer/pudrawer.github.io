@@ -1,0 +1,41 @@
+.button {
+    padding: 15px 25px;
+    border-radius: 25px 0;
+    width: fit-content;
+
+    background: #9a9afd;
+
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+
+    transition: background-color .5s ease, border-radius .5s ease;
+}
+
+.button:hover {
+    background: orange;
+    border-radius: 0 25px;
+}
+
+.button_dark {
+    background: purple;
+}
+
+.button_dark:hover {
+    background: darkslateblue;
+}
+
+.button_alternative {
+    border-radius: 25px;
+
+    color: orange;
+
+    transition: color .5s ease, border-radius .5s ease;
+}
+
+.button_alternative:hover {
+    border-radius: 5px;
+
+    color: #6c6cff;
+}

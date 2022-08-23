@@ -1,0 +1,46 @@
+.timetable-block {
+    margin-top: 50px;
+}
+
+.timetable-block__title {
+    margin-top: 25px;
+}
+
+.timetable-block__table {
+    display: flex;
+    flex-flow: column wrap;
+
+    margin: 25px auto 0 auto;
+    width: 600px;
+}
+
+.timetable-block__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timetable-block__row:first-of-type {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.timetable-block__row:last-of-type {
+    border-bottom: 1px black solid;
+}
+
+.timetable-block__column {
+    display: flex;
+    flex: 2;
+    align-items: center;
+
+    padding: 10px;
+    border-left: 1px black solid;
+}
+
+.timetable-block__column:last-of-type {
+    border-right: 1px black solid;
+}
+
+.timetable-block__column_time {
+    flex: 1;
+}

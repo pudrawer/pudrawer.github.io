@@ -1,0 +1,46 @@
+.hobby-block {
+    margin-top: 50px;
+}
+
+.hobby-block__title {
+    margin-top: 25px;
+}
+
+.hobby-block__hate-title {
+    margin-top: 15px;
+}
+
+.hobby-block__item {
+    margin: 10px 0;
+}
+
+.hobby-block__section {
+    width: max-content;
+    margin: 20px auto 0 auto;
+
+    text-align: left;
+}
+
+.hobby-block__item_love {
+    color: #9b38fc;
+}
+
+.hobby-block__item_hate {
+    color: red;
+}
+
+.hobby-block__item_love:before {
+    content: "<3";
+
+    color: red;
+}
+
+.hobby-block__item_hate:before {
+    content: ".!.";
+
+    color: red;
+}
+
+.hobby-block__item:before {
+    margin-right: 10px;
+}

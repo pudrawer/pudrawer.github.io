@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    margin: 0 auto;
+
+    color: #6c6cff;
+    font-family: "Abyssinica SIL", sans-serif;
+}
+
+.block-title {
+    font-family: "Abyssinica SIL", sans-serif;
+    font-size: 22px;
+}
+
+.rofl {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background: #9a9afd;
+}
+
+.rofl:hover::after {
+    content: "прикола не будет WOW";
+
+    background: darkblue;
+
+    color: wheat;
+
+    transition: .5s ease;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    border-top: 1px #9a9afd solid;
+
+    text-align: center;
+}
+
+.text {
+    margin: 0 auto;
+
+    width: fit-content;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.list {
+    width: 350px;
+    margin: 0 auto;
+
+    text-align: left;
+}
+
+.body__title {
+    margin-top: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.extreme-sections {
+    background: #9a9afd;
+    display: flex;
+    width: 100%;
+    padding: 25px 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
