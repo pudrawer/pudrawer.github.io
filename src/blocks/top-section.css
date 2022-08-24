@@ -1,21 +1,21 @@
-.top-section {
+.hairstyle-section {
     margin-top: 50px;
 }
 
-.top-section__block {
+.hairstyle-section__block {
     display: flex;
     flex-direction: column;
 }
 
-.top-section__title {
+.hairstyle-section__title {
     margin-top: 25px;
 }
 
-.top-section__img {
+.hairstyle-section__img {
     width: 500px;
-    margin: 15px auto 0 auto;
+    margin: 15px auto 0;
 }
 
-.top-section__signature {
+.hairstyle-section__signature {
     margin-top: 25px;
 }

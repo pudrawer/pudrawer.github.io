@@ -13,7 +13,7 @@
 
 .movie-section__img {
     width: 70px;
-    margin: 15px auto 0 auto;
+    margin: 15px auto 0;
 }
 
 .movie-section__text {
@@ -27,30 +27,32 @@
 
     width: 15%;
     border: 2px #6c6cff solid;
-    margin: 25px auto 0 auto;
+    margin: 25px auto 0;
 }
 
-.movie-section__rating_row {
+.movie-section__row {
     display: flex;
     justify-content: space-between;
 }
 
-.movie-section__rating_row:last-of-type {
+.movie-section__row:last-of-type {
     border-top: 2px #6c6cff solid;
 }
 
-.movie-section__rating_rating {
+.movie-section__column_rating {
     flex: 1;
 
     text-align: right;
 }
 
-.movie-section__rating_rater {
+.movie-section__column_rater {
     flex: 2;
+
+    border-right: 2px #6c6cff solid;
 
     text-align: left;
 }
 
-.movie-section__rating_normalize {
+.movie-section__column {
     padding: 10px;
 }

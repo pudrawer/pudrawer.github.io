@@ -16,7 +16,7 @@
 
 .hobby-block__section {
     width: max-content;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 0;
 
     text-align: left;
 }
@@ -25,13 +25,13 @@
     color: #9b38fc;
 }
 
-.hobby-block__item_hate {
-    color: red;
-}
-
 .hobby-block__item_love:before {
     content: "<3";
 
+    color: red;
+}
+
+.hobby-block__item_hate {
     color: red;
 }
 
